@@ -200,14 +200,32 @@ const HomePage = () => {
         <h2 className="judul-section">AGENDA & KEGIATAN</h2>
         <Container className="mt-3">
           <Row>
-            <Col className="my-lg-0 my-4">
-              <CardAgenda />
+            <Col className="my-lg-0 my-3">
+              <CardAgenda
+                judul="HARI GURU NASIONAL TAHUN 2024"
+                tanggal="24 November 2024"
+                jam="-"
+                lokasi="-"
+                status="Akan datang"
+              />
             </Col>
-            <Col className="my-lg-0 my-4">
-              <CardAgenda />
+            <Col className="my-lg-0 my-3">
+              <CardAgenda
+                judul="LATIHAN DASAR KEPEMIMPINAN SISWA"
+                tanggal="15 - 16 November 2024"
+                jam="14.00 WIB"
+                lokasi="SMK Wira Informatika Global"
+                status="Akan datang"
+              />
             </Col>
-            <Col className="my-lg-0 my-4">
-              <CardAgenda />
+            <Col className="my-lg-0 my-3">
+              <CardAgenda
+                judul="PEKAN KREATIFITAS KEWIRAUSAHAAN SISWA (PKKS 6)"
+                tanggal="4 - 12 Novermber 2024"
+                jam="07.00 WIB"
+                lokasi="SMK Wira Informatika Global"
+                status="Berakhir"
+              />
             </Col>
           </Row>
         </Container>
