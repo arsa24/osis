@@ -1,0 +1,211 @@
+* {
+  font-family: "Poppins", sans-serif;
+}
+
+nav {
+  box-shadow: 0px 5px 15px -3px rgba(0, 0, 0, 0.2);
+}
+
+.ttl-nav {
+  font-weight: 600;
+}
+
+.nvmn div {
+  padding: 0 14px;
+}
+
+.nvmn .navlink {
+  position: relative;
+  text-decoration: none;
+  color: black;
+  font-weight: 500;
+  padding-bottom: 2px;
+}
+
+.nvmn .navlink::after {
+  content: "";
+  position: absolute;
+  left: 0;
+  bottom: 0;
+  width: 0;
+  height: 2px;
+  background-color: black;
+  transition: width 0.3s ease;
+}
+
+.nvmn .navlink:hover::after {
+  width: 100%;
+}
+
+.btn-check:checked + .btn,
+.btn.active,
+.btn.show,
+.btn:first-child:active,
+:not(.btn-check) + .btn:active {
+  color: black !important;
+}
+
+.dropdown button {
+  text-decoration: none;
+  font-weight: 500;
+  border-radius: 0;
+  padding: 0;
+  padding-bottom: 2px;
+  color: black;
+}
+
+.dropdown .dropdown-menu {
+  padding: 1rem 0.7rem;
+}
+
+.dropdown .dropdown-menu a {
+  padding-top: 12px;
+}
+
+.join-btn button {
+  border: none;
+  background-color: #1977cc;
+  padding: 3px 20px;
+  border-radius: 4px;
+  color: white;
+  font-weight: 500;
+}
+
+.btn-link:hover {
+  color: black !important;
+}
+
+.btn:hover {
+  color: black !important;
+}
+
+.join-btn button:hover {
+  opacity: 0.7;
+}
+
+.container-fluid .navbar-toggler:focus {
+  outline: none;
+  box-shadow: none;
+}
+
+.container-fluid .navbar-toggler {
+  border: none;
+  box-shadow: none;
+  outline: none;
+}
+
+@media screen and (max-width: 992px) {
+  .offcanvas .offcanvas-body div {
+    padding: 14px;
+    align-items: start !important;
+  }
+}
+
+/* home page */
+
+header {
+  background: linear-gradient(rgba(0, 0, 0, 0.5), rgba(0, 0, 0, 0.5)),
+    url("./assets/hero-img.svg");
+  background-size: cover;
+  background-position: 50% 50%;
+  background-repeat: no-repeat;
+}
+
+.container .ttl-home {
+  font-family: "Black Han Sans", sans-serif;
+  font-weight: 400;
+  font-size: 3rem;
+  color: #ffffff;
+  text-shadow: 1px 1px 3px #1c1c1c;
+}
+
+@media screen and (max-width: 768px) {
+  .container .ttl-home {
+    font-size: 2rem;
+  }
+}
+
+/* visi misi */
+
+#visi-misi {
+  padding-top: 5rem;
+}
+
+.judul-section {
+  font-family: "Plus Jakarta Sans", sans-serif;
+  font-weight: 700;
+  position: relative;
+  color: #2c4964;
+  padding-bottom: 16px;
+}
+
+.judul-section::before {
+  content: "";
+  position: absolute;
+  display: block;
+  width: 120px;
+  height: 1px;
+  background: #ddd;
+  bottom: 1px;
+  left: calc(50% - 60px);
+}
+
+.judul-section::after {
+  content: "";
+  position: absolute;
+  display: block;
+  width: 40px;
+  height: 3px;
+  background: #1977cc;
+  bottom: 0;
+  left: calc(50% - 20px);
+}
+
+#visi-misi .container .row .col p, #visi-misi .container .row .col ol li {
+  font-family: "Plus Jakarta Sans", sans-serif;
+  font-weight: 600;
+  text-align: justify;
+}
+
+#visi-misi .container .row .col ol {
+  padding: 1rem;
+}
+
+/* sekbid */
+#sekbid {
+  padding-top: 5rem;
+}
+
+.sekbid {
+  background: linear-gradient(rgba(0, 0, 0, 0.5), rgba(0, 0, 0, 0.5)),
+    url("./assets//example.jpg");
+  background-size: cover;
+  background-position: 50% 50%;
+  background-repeat: no-repeat;
+  margin: 1rem;
+  height: 15rem;
+  display: flex;
+  flex-direction: column;
+  justify-content: end;
+  padding: 16px;
+}
+
+.sekbid p {
+  color: white;
+  font-weight: 500;
+}
+
+.sekbid h3 {
+  font-weight: bold;
+  font-size: 16px;
+  color: white;
+}
+
+#proker {
+  padding-top: 5rem;
+
+}
+
+#proker .container .row .col .card-body .card-text {
+  font-size: .8rem;
+}
