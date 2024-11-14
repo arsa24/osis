@@ -161,7 +161,8 @@ header {
   left: calc(50% - 20px);
 }
 
-#visi-misi .container .row .col p, #visi-misi .container .row .col ol li {
+#visi-misi .container .row .col p,
+#visi-misi .container .row .col ol li {
   font-family: "Plus Jakarta Sans", sans-serif;
   font-weight: 600;
   text-align: justify;
@@ -203,17 +204,52 @@ header {
 
 #proker {
   padding-top: 5rem;
-
 }
 
 #proker .container .row .col .card-body .card-text {
-  font-size: .8rem;
+  font-size: 0.8rem;
 }
 
-
-
-#proker .container .row .col{
+#proker .container .row .col {
   display: flex !important;
   justify-content: center !important;
   align-items: center !important;
+}
+
+#agenda {
+  padding-top: 5rem;
+}
+
+/* card agenda */
+
+.c-main {
+  border: 1px solid rgb(243, 243, 243);
+  box-shadow: 0px 0px 15px -3px rgba(0, 0, 0, 0.3);
+}
+
+.c-status p {
+  margin: 0 auto;
+  padding: 8px 0;
+}
+
+.c-status {
+  color: white;
+  font-weight: bold;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  background-color: #616161;
+}
+
+.c-body ul li {
+  list-style: none;
+  padding: 8px 0;
+}
+
+.c-body ul li svg {
+  margin-right: 0.5rem;
+}
+
+.c-ttl h3 {
+  padding: 8px;
 }

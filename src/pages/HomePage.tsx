@@ -1,4 +1,5 @@
 import { Container, Row, Col } from "react-bootstrap";
+import CardAgenda from "../components/CardAgenda";
 import { Link } from "react-router-dom";
 import Card from "react-bootstrap/Card";
 import Carousel from "react-bootstrap/Carousel";
@@ -173,6 +174,40 @@ const HomePage = () => {
                   </Card.Text>
                 </Card.Body>
               </Card>
+            </Col>
+          </Row>
+          <Row className="mt-3">
+            <Col className="d-flex justify-content-center">
+              <Link to="/proker">
+                <button className="btn fw-bold">
+                  Lihat lainnya{" "}
+                  <svg
+                    xmlns="http://www.w3.org/2000/svg"
+                    height="24px"
+                    viewBox="0 -960 960 960"
+                    width="24px"
+                    fill="#000000"
+                  >
+                    <path d="M504-480 320-664l56-56 240 240-240 240-56-56 184-184Z" />
+                  </svg>
+                </button>
+              </Link>
+            </Col>
+          </Row>
+        </Container>
+      </div>
+      <div id="agenda" className="d-flex align-items-center flex-column">
+        <h2 className="judul-section">AGENDA & KEGIATAN</h2>
+        <Container className="mt-3">
+          <Row>
+            <Col className="my-lg-0 my-4">
+              <CardAgenda />
+            </Col>
+            <Col className="my-lg-0 my-4">
+              <CardAgenda />
+            </Col>
+            <Col className="my-lg-0 my-4">
+              <CardAgenda />
             </Col>
           </Row>
         </Container>
