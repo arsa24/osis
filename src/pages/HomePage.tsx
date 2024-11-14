@@ -102,7 +102,7 @@ const HomePage = () => {
         <Container className="mt-3">
           <Row>
             <Col>
-              <Card style={{ width: "20rem" }}>
+              <Card style={{ width: "20rem" }} className="my-lg-0 my-4">
                 <Carousel>
                   <Carousel.Item>
                     <img src={randa1} alt="" className="w-100" />
@@ -125,7 +125,7 @@ const HomePage = () => {
               </Card>
             </Col>
             <Col>
-              <Card style={{ width: "20rem" }}>
+              <Card style={{ width: "20rem" }} className="my-lg-0 my-4">
                 <Carousel>
                   <Carousel.Item>
                     <img src={selasih1} alt="" className="w-100" />
@@ -148,7 +148,7 @@ const HomePage = () => {
               </Card>
             </Col>
             <Col>
-              <Card style={{ width: "20rem" }}>
+              <Card style={{ width: "20rem" }} className="my-lg-0 my-4">
                 <Carousel>
                   <Carousel.Item>
                     <img src={pkks1} alt="" className="w-100" />

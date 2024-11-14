@@ -209,3 +209,11 @@ header {
 #proker .container .row .col .card-body .card-text {
   font-size: .8rem;
 }
+
+
+
+#proker .container .row .col{
+  display: flex !important;
+  justify-content: center !important;
+  align-items: center !important;
+}
