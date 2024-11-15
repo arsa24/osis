@@ -183,7 +183,7 @@ header {
   background-size: cover;
   background-position: 50% 50%;
   background-repeat: no-repeat;
-  margin: 1rem;
+  margin: 0.5rem;
   height: 15rem;
   display: flex;
   flex-direction: column;
@@ -251,4 +251,41 @@ header {
 
 .c-ttl h3 {
   padding: 8px;
+}
+
+
+/* logo */
+#logo .container {
+  margin-top: 7rem;
+}
+
+.logo {
+  width: 50%;
+}
+
+.filosofi {
+  display: flex;
+}
+
+.filosofi .putih, .filosofi .biru, .filosofi .kuning {
+  padding: 4%;
+  margin: 1rem;
+  box-shadow: 0px 0px 15px -3px rgba(0,0,0,0.5);
+}
+
+.putih {
+  background-color: #ffffff;
+  font-weight: 600;
+}
+
+.biru {
+  background-color: #355C93;
+  font-weight: 600;
+  color: white;
+}
+
+.kuning {
+  font-weight: 600;
+  color: white;
+  background-color: #FFAD3F;
 }

@@ -66,15 +66,15 @@ const HomePage = () => {
         <Container className="mt-3">
           <Row>
             <Col className="sekbid">
-              <p>Seksi Bidang 1</p>
+              <p>SEKSI BIDANG 1</p>
               <h3>Keagamaan dan Akhlak Mulia</h3>
             </Col>
             <Col className="sekbid">
-              <p>Seksi Bidang 2</p>
+              <p>SEKSI BIDANG 2</p>
               <h3>Wawasan Kebangsaan dan Bela Negara</h3>
             </Col>
             <Col className="sekbid">
-              <p>Seksi Bidang 3</p>
+              <p>SEKSI BIDANG 3</p>
               <h3>Minat dan Bakat</h3>
             </Col>
           </Row>

@@ -1,4 +1,5 @@
 import { Container, Row, Col } from "react-bootstrap";
+import { Link } from "react-router-dom";
 
 function FooterComponent() {
   return (
@@ -19,45 +20,31 @@ function FooterComponent() {
             <h5>Navigasi</h5>
             <ul className="list-unstyled">
               <li>
-                <a href="/" className="text-light">
+                <Link className="text-decoration-none text-white" to="/">
                   Home
-                </a>
+                </Link>
               </li>
               <li>
-                <a href="/about" className="text-light">
-                  About Us
-                </a>
-              </li>
-              <li>
-                <a href="/proker" className="text-light">
+                <Link className="text-decoration-none text-white" to="/proker">
                   Proker
-                </a>
+                </Link>
               </li>
               <li>
-                <a href="/event" className="text-light">
+                <Link className="text-decoration-none text-white" to="/event">
                   Event
-                </a>
+                </Link>
               </li>
             </ul>
           </Col>
-
-          {/* Kolom 3 - Media Sosial */}
           <Col md={4} className="mb-3">
             <h5>Follow Us</h5>
             <ul className="list-unstyled d-flex">
               <li>
-                <a href="#" className="text-light me-3">
-                  <i className="bi bi-facebook"></i> Facebook
-                </a>
-              </li>
-              <li>
-                <a href="#" className="text-light me-3">
+                <a
+                  href="https://www.instagram.com/osiswing_activity/"
+                  className="text-light me-3 text-decoration-none"
+                >
                   <i className="bi bi-instagram"></i> Instagram
-                </a>
-              </li>
-              <li>
-                <a href="#" className="text-light">
-                  <i className="bi bi-twitter"></i> Twitter
                 </a>
               </li>
             </ul>
